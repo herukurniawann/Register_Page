@@ -1,0 +1,141 @@
+html{
+font-family: 'Open Sauce One', sans-serif;    
+font-size: 14px;
+}
+.text-accent{
+    color:#388E30 !important;
+    font-weight: bold;
+}
+.text-mute{
+    color:#9e9e9e !important;
+}
+
+/* HEADER */
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.logotokped{
+    width: 10rem;
+}
+
+/* .text-tokped{ */
+    /* font-size: 1rem ; */
+/* } */
+
+.login-page{
+    width: 20rem;
+}
+/* SECTION */
+
+.form-regist{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.konten{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.form-email{
+    text-align: left;
+    /* display: flex; */
+    justify-content: left;
+}
+
+.button-gogle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(207,207,207,0.45);
+    border-radius: 8px;
+    background-color: white;
+    align-items: center;
+
+
+}
+
+.text-google{
+    width: 20%;
+    text-align: center;
+
+}
+
+.logo-google{
+    width: 1.5rem;
+    
+  /* justify-content: center; */
+}
+
+.input-email{
+    width: 90%;
+    padding: 1rem;
+    border: solid;
+    border-color: rgba(207, 207, 207, 0.45); 
+    border-radius: 8px;
+    border-width: 2px;
+    display: inline-block;
+}
+
+.daftar{
+    width: 100%;
+    padding: 1rem;
+    border: solid;
+    border-color: rgba(207, 207, 207, 0.45);
+    border-radius: 8px;
+    background-color: #388E30;
+    border-width: 1px;
+    justify-content: center;
+}
+
+.daftar-teks{
+    color: white;
+}
+/* FOOTER */
+.main-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+/* Mobile
+@media (min-width: 576px){
+    /* html{
+        background-color: re;
+    } */
+
+}
+/* Tablet */
+@media (min-width: 768px) {
+    /* html{
+        background-color: #388E3;
+    }
+} */
+
+/* Laptop */
+@media (min-width: 992px) {
+    /* html{
+    background-color: b;
+    } */
+} 
+*/
